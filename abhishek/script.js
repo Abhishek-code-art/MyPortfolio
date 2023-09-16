@@ -65,7 +65,8 @@ $(document).ready(function() {
     });
 
   //contact form to excel sheet
-  const scriptURL = 'https://script.google.com/macros/s/AKfycbzUSaaX3XmlE5m9YLOHOBrRuCh2Ohv49N9bs4bew7xPd1qlgpvXtnudDs5Xhp3jF-Fx/exec';
+  // https://docs.google.com/spreadsheets/d/1c5OF7Raljcw-k_TGZm_aNWOUvNjK5yn-tYvrGCMjK94/edit#gid=0
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbxg8vo3ZNUauK4FM8a_oCMaQ-LSx56iQpundFWhgaGny8h8M1Ib1SAJRyOtSHTrdM8t-w/exec';
   const form = document.forms['submitToGoogleSheet']
   const msg = document.getElementById("msg")
 
